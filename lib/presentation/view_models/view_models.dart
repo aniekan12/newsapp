@@ -1,0 +1,1 @@
+export 'news_view_model.dart';
