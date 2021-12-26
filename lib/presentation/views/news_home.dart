@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/presentation/view_models/view_models.dart';
-import 'package:news_app/shared/app_refresh_indicator.dart';
-import 'package:news_app/shared/app_scaffold.dart';
+import 'package:news_app/shared/shared.dart';
 import 'package:provider/provider.dart';
 
 class NewsHome extends StatefulWidget {
