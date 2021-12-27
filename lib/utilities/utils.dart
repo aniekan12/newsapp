@@ -7,3 +7,7 @@ final BorderRadius topBorderRadius =
 
 final EdgeInsets bodyPadding =
     EdgeInsets.symmetric(horizontal: 16, vertical: 12);
+
+AppBackButton(BuildContext context) => InkWell(
+    onTap: () => Navigator.pop(context),
+    child: Icon(Icons.chevron_left_outlined));

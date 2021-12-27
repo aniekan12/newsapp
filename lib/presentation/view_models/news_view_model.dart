@@ -2,7 +2,6 @@ import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:news_app/presentation/models/news_model.dart';
 import 'package:news_app/services/api/app_api.dart';
-import 'package:news_app/utilities/utilities.dart';
 
 class NewsViewModel extends ChangeNotifier {
   Future getNews() async {
@@ -17,8 +16,8 @@ class NewsViewModel extends ChangeNotifier {
         return newsModel;
       }
     } on DioError catch (e) {
-      showDioErrorSnackBar(
-          text: ErrorMessage().errorMessage!, dioError: e, function: "getNews");
+      // showDioErrorSnackBar(
+      //     text: ErrorMessage().errorMessage!, dioError: e, function: "getNews");
     }
   }
 }

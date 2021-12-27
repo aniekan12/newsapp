@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/main.dart';
 import 'package:news_app/utilities/utilities.dart';
 
 class AppScaffold extends StatelessWidget {
+  @Deprecated("Switch to scaffold messenger")
+  final GlobalKey<ScaffoldState>? scaffoldKey;
+
   /// Title of the page. e.g Withdrawal...
   final Widget? widgetBesidePageTitle;
   final Widget? child;
@@ -19,6 +21,7 @@ class AppScaffold extends StatelessWidget {
       {required this.child,
       this.hasWholePadding = true,
       this.widgetBesidePageTitle,
+      this.scaffoldKey,
       this.floatingActionButton,
       this.backgroundColor});
 
