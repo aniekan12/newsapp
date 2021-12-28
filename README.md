@@ -2,15 +2,6 @@
 
 An app that shows latest news.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![flutter_01](https://user-images.githubusercontent.com/45481950/147547324-b3117adb-480c-4f18-939a-e9136e24bd6f.png)
+![flutter_02](https://user-images.githubusercontent.com/45481950/147547293-358b52d7-495b-45b3-a3e6-7bc1599eba98.png)
